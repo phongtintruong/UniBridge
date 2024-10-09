@@ -2,7 +2,10 @@ import argparse
 import os
 import shutil
 
-from UniBridge.Embedding import UniBridgeEmbedConfig, UniBridgeEmbedding, build_tokenizer
+# from UniBridge.Embedding import UniBridgeEmbedConfig, UniBridgeEmbedding, build_tokenizer
+from UniBridge.Embedding.build import build_tokenizer
+from UniBridge.Embedding.configuration import UniBridgeEmbedConfig
+from UniBridge.Embedding.model import UniBridgeEmbedding
 from UniBridge.MultiTok import convert_tok, train
 
 
