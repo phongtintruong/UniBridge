@@ -1,0 +1,20 @@
+adapter-transformers==3.2.1
+datasets==2.14.6
+entmax
+evaluate
+fastdist
+fasttext
+lightning
+loguru
+numba
+packaging
+requests
+sentencepiece
+seqeval
+tokenizers
+tqdm
+wandb
+transformers==4.33.2
+
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch

@@ -97,7 +97,7 @@ def train(
     is_bpe: bool = True,
 ):
     logger.info(f"Loading {lang} dataset ...")
-    dataset = load_dataset("multi_wiki", lang)["train"]
+    dataset = load_dataset("multi_wiki", lang, trust_remote_code=True)["train"]
 
     logger.info("Writing text data to file ...")
     data = dataset["text"]
