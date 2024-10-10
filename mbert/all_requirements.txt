@@ -1,20 +1,24 @@
+# Merged from both requirement files
+
 adapter-transformers==3.2.1
-datasets==2.14.6
-entmax
-evaluate
-fastdist
-fasttext
-lightning
-loguru
-numba
-packaging
-requests
-sentencepiece
-seqeval
-tokenizers
-tqdm
-wandb
+datasets==2.14.6  # Chose the higher version
+entmax==1.1
+evaluate==0.4.0
+fastdist==1.1.6
+fasttext-wheel
+lightning==2.0.9.post0
+loguru==0.7.2
+numba==0.58.1
+numpy==1.24.4  # Chose the higher version
+packaging==23.2  # Chose the higher version
+pandas==2.0.3  # Chose the higher version
+requests==2.31.0  # Chose the higher version
+sentencepiece==0.1.99  # Chose the higher version
+seqeval==1.2.2
+tokenizers==0.13.3  # Chose the higher version
+tqdm==4.66.1  # Chose the higher version
 transformers==4.33.2
+wandb==0.15.12  # Chose the higher version
 
 --extra-index-url https://download.pytorch.org/whl/cu118
-torch
+torch==2.1.0
